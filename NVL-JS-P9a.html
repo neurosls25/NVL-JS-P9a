@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NVL-JS-P9a</title>
+</head>
+<body>
+
+    <header>
+        <h1>Este es el ejercicio NVL-JS-P9a del modulo JS</h1>
+    </header>
+    Indica la longitud del array:<br>
+    <div id="resultado1"></div>
+    Indica la longitud de uno de los elementos del array<br>
+    <div id="resultado2"></div>
+    Muestra por pantalla el valor del tercer elemento de la lista del array.<br>
+    <div id="resultado3"></div>
+    Dentro de ese tercer elemento, su segundo elemento.<br>
+    <div id="resultado4"></div>
+
+
+    <script>
+        var a = [["Diego", 37], ["Mauro", 35], ["Laura", 34, "pedicura"]]
+        document.getElementById("resultado1").innerHTML = 'La longitud es: ' + a.length;
+
+        document.getElementById("resultado2").innerHTML = 'La longitud es: ' + a[1].length;
+
+        document.getElementById("resultado3").innerHTML = 'El valor del tercer elemento de la array es: ' + a[2];
+
+        document.getElementById("resultado4").innerHTML = 'El valor del segundo elemento de la array es: ' + a[2][1];
+
+    </script>
+    
+</body>
+</html>
